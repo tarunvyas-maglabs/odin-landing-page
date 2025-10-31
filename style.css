@@ -134,3 +134,63 @@ p {
     flex-wrap: wrap;
     gap: 60px;
 }
+
+.quote {
+    padding: 100px 800px;
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    gap: 20px;
+}
+
+.quote-content {
+    font-size: 36px;
+    color: #1F2937;
+    font-style:italic;
+    font-weight: 300;
+}
+
+.quote-author {
+    align-self: flex-end;
+    text-align: right;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.pop-up {
+    display: flex;
+    background-color: #3882F6;
+    padding: 48px;
+    margin: 100px 750px;
+    justify-content: center;
+    align-items: center;
+    gap: 275px;
+    border-radius: 10px;
+}
+
+.pop-up-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.pop-up-button {
+    padding: 8px 32px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    border-color: white;
+    border-style:solid;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.pop-up-text-heading {
+    font-size: 24px;
+    color: white;
+    font-weight: 800;
+}
+
+.pop-up-text-body {
+    color: lightgray;
+}
